@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/trackxpress/static/css/main.c423d5db.css",
-    "main.js": "/trackxpress/static/js/main.0a419a62.js",
+    "main.js": "/trackxpress/static/js/main.c8504697.js",
     "static/js/787.975810ee.chunk.js": "/trackxpress/static/js/787.975810ee.chunk.js",
     "index.html": "/trackxpress/index.html",
     "main.c423d5db.css.map": "/trackxpress/static/css/main.c423d5db.css.map",
-    "main.0a419a62.js.map": "/trackxpress/static/js/main.0a419a62.js.map",
+    "main.c8504697.js.map": "/trackxpress/static/js/main.c8504697.js.map",
     "787.975810ee.chunk.js.map": "/trackxpress/static/js/787.975810ee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c423d5db.css",
-    "static/js/main.0a419a62.js"
+    "static/js/main.c8504697.js"
   ]
 }
