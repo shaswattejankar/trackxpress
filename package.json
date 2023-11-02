@@ -2,7 +2,7 @@
   "homepage": "https://shaswattejankar.github.io/trackxpress",
   "name": "trackxpress",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@react-google-maps/api": "^2.19.2",
     "@testing-library/jest-dom": "^5.17.0",

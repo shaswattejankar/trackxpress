@@ -11,7 +11,6 @@ import {
 import { MdAddCircle } from "react-icons/md";
 import { BsFillPlayCircleFill } from "react-icons/bs";
 import { AiFillCloseCircle } from "react-icons/ai";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 // Entry Function
 const MapTrack = () => {
