@@ -1,0 +1,56 @@
+.map-canvas{
+    .map-container{
+        height: 100vh;
+        width: 100vw;
+        .buttons{
+            bottom: 43px;
+            display: flex;
+            flex-direction: column-reverse;
+            position: fixed;
+            right: 24px;
+            button{
+                background: none;
+                border: none;
+                border-radius: 50%;
+                position: relative;
+                z-index: 100
+            }
+        }
+        .side-div{
+            .add-customer-form{
+                background: #22c1c3;
+                background: linear-gradient(330deg, #a3e45a 23%, #1da5a8 80%);
+                display: flex;
+                flex-direction: column;
+                height: 100vh;
+                justify-content: center;
+                padding: 60px;
+                position: absolute;
+                right: 0;
+                row-gap: 10px;
+                width: 25%;
+                z-index: 100;
+                input{
+                    padding: 4px
+                }
+                .form-buttons{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 25px;
+                    padding: 0 50px;
+                    background : none;
+                    button{
+                        background: none;
+                        border: none;
+                        color: white;
+                        font-weight: 600;
+                    }
+                    .close-btn{
+                        margin-top: 20px;
+                        z-index: 100
+                    }
+                }
+            }
+        }
+    }
+}

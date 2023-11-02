@@ -1,0 +1,112 @@
+h1 {
+  width: -webkit-fill-available;
+  position: fixed;
+  top: 0px;
+}
+
+.landing-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing-page .container {
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.landing-page .container form {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  justify-items: center;
+  width: -webkit-fill-available;
+}
+.landing-page .container form img {
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.landing-page .container form input {
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 20px;
+  margin: 33px 0px 30px 0px;
+  width: -webkit-fill-available;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.landing-page .container form .landing-page-btn {
+  background: none;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  padding: 8px;
+}
+.landing-page .container form .landing-page-btn:hover {
+  background: rgb(34, 225, 227);
+  background: linear-gradient(339deg, rgb(34, 225, 227) 38%, rgb(200, 255, 44) 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.map-canvas .map-container {
+  height: 100vh;
+  width: 100vw;
+}
+.map-canvas .map-container .buttons {
+  bottom: 43px;
+  display: flex;
+  flex-direction: column-reverse;
+  position: fixed;
+  right: 24px;
+}
+.map-canvas .map-container .buttons button {
+  background: none;
+  border: none;
+  border-radius: 50%;
+  position: relative;
+  z-index: 100;
+}
+.map-canvas .map-container .side-div .add-customer-form {
+  background: #22c1c3;
+  background: linear-gradient(330deg, #a3e45a 23%, #1da5a8 80%);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  padding: 60px;
+  position: absolute;
+  right: 0;
+  row-gap: 10px;
+  width: 25%;
+  z-index: 100;
+}
+.map-canvas .map-container .side-div .add-customer-form input {
+  padding: 4px;
+}
+.map-canvas .map-container .side-div .add-customer-form .form-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  padding: 0 50px;
+  background: none;
+}
+.map-canvas .map-container .side-div .add-customer-form .form-buttons button {
+  background: none;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+.map-canvas .map-container .side-div .add-customer-form .form-buttons .close-btn {
+  margin-top: 20px;
+  z-index: 100;
+}
+
+.App {
+  height: 100vh;
+  background: rgb(34, 225, 227);
+  background: linear-gradient(170deg, rgb(34, 225, 227) 38%, rgb(200, 255, 44) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}/*# sourceMappingURL=app.css.map */
