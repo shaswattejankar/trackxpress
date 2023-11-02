@@ -97,7 +97,7 @@ function LandingPage() {
         </div>
       </div>
       <Routes>
-        <Route path="maptrack" element={<MapTrack />} />
+        <Route path="maptrack/" element={<MapTrack />} />
       </Routes>
     </>
   );
