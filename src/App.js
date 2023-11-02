@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Header/>}>
           <Route index element={<LandingPage /> } />
-          <Route path='maptrack' element={<MapTrack />} />
+          <Route path='/maptrack' element={<MapTrack />} />
         </Route>
       </Routes>
     </div>
