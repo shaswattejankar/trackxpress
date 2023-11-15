@@ -1,6 +1,6 @@
 # TrackXpress
 
-This is a fronted project made with React.Js
+This is a fronted project made with React.Js and GMP. There is no backend/database support included yet.
 
 ## Available Scripts
 
